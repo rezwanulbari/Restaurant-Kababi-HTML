@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?df47e280b0c1a343f2d1d37e63d03f92") format("truetype"),
+url("./flaticon.woff?df47e280b0c1a343f2d1d37e63d03f92") format("woff"),
+url("./flaticon.woff2?df47e280b0c1a343f2d1d37e63d03f92") format("woff2"),
+url("./flaticon.eot?df47e280b0c1a343f2d1d37e63d03f92#iefix") format("embedded-opentype"),
+url("./flaticon.svg?df47e280b0c1a343f2d1d37e63d03f92#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "pizza": "\f101",
+    "cheeseburger": "\f102",
+    "coffee-cup": "\f103",
+    "chicken-leg": "\f104",
+    "shrimp": "\f105",
+    "drink": "\f106",
+    "chef": "\f107",
+    "fast-food": "\f108",
+    "fork": "\f109",
+    "pizza-1": "\f10a",
+    "quotation": "\f10b",
+);
+
+.flaticon-pizza:before {
+    content: map-get($flaticon-map, "pizza");
+}
+.flaticon-cheeseburger:before {
+    content: map-get($flaticon-map, "cheeseburger");
+}
+.flaticon-coffee-cup:before {
+    content: map-get($flaticon-map, "coffee-cup");
+}
+.flaticon-chicken-leg:before {
+    content: map-get($flaticon-map, "chicken-leg");
+}
+.flaticon-shrimp:before {
+    content: map-get($flaticon-map, "shrimp");
+}
+.flaticon-drink:before {
+    content: map-get($flaticon-map, "drink");
+}
+.flaticon-chef:before {
+    content: map-get($flaticon-map, "chef");
+}
+.flaticon-fast-food:before {
+    content: map-get($flaticon-map, "fast-food");
+}
+.flaticon-fork:before {
+    content: map-get($flaticon-map, "fork");
+}
+.flaticon-pizza-1:before {
+    content: map-get($flaticon-map, "pizza-1");
+}
+.flaticon-quotation:before {
+    content: map-get($flaticon-map, "quotation");
+}

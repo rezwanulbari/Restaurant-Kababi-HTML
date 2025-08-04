@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../font/flaticon.ttf") format("truetype"),
+url("../font/flaticon.woff") format("woff"),
+url("../font/flaticon.woff2") format("woff2"),
+url("../font/flaticon.eot") format("embedded-opentype"),
+url("../font/flaticon.svg") format("svg");
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-pizza:before {
+    content: "\f101";
+}
+.flaticon-cheeseburger:before {
+    content: "\f102";
+}
+.flaticon-coffee-cup:before {
+    content: "\f103";
+}
+.flaticon-chicken-leg:before {
+    content: "\f104";
+}
+.flaticon-shrimp:before {
+    content: "\f105";
+}
+.flaticon-drink:before {
+    content: "\f106";
+}
+.flaticon-chef:before {
+    content: "\f107";
+}
+.flaticon-fast-food:before {
+    content: "\f108";
+}
+.flaticon-fork:before {
+    content: "\f109";
+}
+.flaticon-pizza-1:before {
+    content: "\f10a";
+}
+.flaticon-quotation:before {
+    content: "\f10b";
+}
